@@ -1,0 +1,91 @@
+.container {
+    max-width: 600px; /* Use max-width for responsiveness */
+    margin: 0 auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #3620b2 0%, #800be0 100%);
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center; /* Center align elements */
+    gap: 20px; /* Reduce the gap for better spacing */
+}
+
+.top-bar input {
+    width: 100%;
+    max-width: 400px; /* Use max-width for responsiveness */
+    height: 50px; /* Reduce the height for a cleaner look */
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 0 20px; /* Adjust padding for better input alignment */
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search-icon {
+    width: 50px; /* Reduce the size of the search icon container */
+    height: 50px; /* Reduce the size of the search icon container */
+    background: #ebfffc;
+    border-radius: 50%; /* Make the search icon container circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.weather-image {
+    margin-top: 20px; /* Reduce the margin for better spacing */
+    display: flex;
+    justify-content: center;
+}
+
+.weather-temp {
+    color: white;
+    font-size: 80px; /* Reduce the font size for a cleaner look */
+    font-weight: 400;
+    text-align: center; /* Center align the temperature text */
+}
+
+.weather-location {
+    color: white;
+    font-size: 40px; /* Reduce the font size for a cleaner look */
+    font-weight: 400;
+    text-align: center; /* Center align the location text */
+}
+
+.data-container {
+    margin-top: 30px; /* Increase the margin for better spacing */
+    color: white;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align elements */
+}
+
+.element {
+    margin: 10px 0; /* Add vertical margin for better spacing */
+    display: flex;
+    align-items: center; /* Center align elements */
+    gap: 10px; /* Reduce the gap for better spacing */
+}
+
+.data {
+    font-size: 24px; /* Reduce the font size for a cleaner look */
+    font-weight: 400;
+    text-align: center; /* Center align the data text */
+}
+
+.text {
+    font-size: 16px; /* Reduce the font size for a cleaner look */
+    font-weight: 400;
+    text-align: center; /* Center align the text */
+}
+
+.icon {
+    margin-top: 5px; /* Reduce the top margin for better spacing */
+}
