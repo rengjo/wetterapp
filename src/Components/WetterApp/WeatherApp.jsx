@@ -11,7 +11,7 @@ import snow_icon from '../Asset/snow.png';
 
 const WeatherApp = () => {
   // API-Schlüssel für Zugriff auf Wetterdaten
-  let api_key = "c36f660b3fbec6ecb0b42c0db2833397";
+  //let api_key = "";
 
   // State-Hook für Wetter-Icon
   const [wicon, setWicon] = useState(cloud_icon);
